@@ -246,7 +246,31 @@ task checkVisibility {
 }
 
 preBuild.dependsOn checkVisibility
+
+task normalizeValuesXml {
+    doLast {
+        def valuesDirs = fileTree('src/main/res') {
+            include 'values*/**/*.xml'
+        }
+
+        valuesDirs.files.sort().each { xmlFile ->
+            def content = xmlFile.getText('UTF-8')
+            int start = content.indexOf('<resources')
+            int end = content.indexOf('</resources>', start)
+            if (start < 0 || end < 0) {
+                return
+            }
+            end += '</resources>'.length()
+            def normalized = content.substring(start, end).trim() + System.lineSeparator()
+            if (normalized != content) {
+                xmlFile.write(normalized, 'UTF-8')
+            }
+        }
+    }
+}
+
 task validateValuesXml {
+
     doLast {
         def valuesDirs = fileTree('src/main/res') {
             include 'values*/**/*.xml'
@@ -265,4 +289,5 @@ task validateValuesXml {
     }
 }
 
+validateValuesXml.dependsOn normalizeValuesXml
 preBuild.dependsOn validateValuesXml
