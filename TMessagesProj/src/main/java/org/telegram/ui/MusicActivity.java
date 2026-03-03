@@ -152,7 +152,7 @@ public class MusicActivity extends BaseFragment implements MainTabsActivity.TabF
         MediaController mediaController = MediaController.getInstance();
         MessageObject messageObject = mediaController.getPlayingMessageObject();
         if (messageObject == null) {
-            AndroidUtilities.shakeView(playPauseButton, 2, 0);
+            AndroidUtilities.shakeView(playPauseButton);
             return;
         }
         if (mediaController.isMessagePaused()) {
@@ -237,7 +237,7 @@ public class MusicActivity extends BaseFragment implements MainTabsActivity.TabF
     private void addCurrentTrackToPlaylist(String playlistName) {
         MessageObject playing = MediaController.getInstance().getPlayingMessageObject();
         if (playing == null) {
-            AndroidUtilities.shakeView(playPauseButton, 2, 0);
+            AndroidUtilities.shakeView(playPauseButton);
             return;
         }
         playlistStorage.addTrack(playlistName, playing);

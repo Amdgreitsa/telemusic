@@ -89,6 +89,33 @@ Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation."
 fi
 
+get_java_major_version() {
+    java_version_output=`"$1" -version 2>&1 | head -n 1`
+    java_version=`echo "$java_version_output" | sed -n 's/.*version "\([^"]*\)".*/\1/p'`
+    java_major=`echo "$java_version" | cut -d. -f1`
+
+    if [ "$java_major" = "1" ] ; then
+        java_major=`echo "$java_version" | cut -d. -f2`
+    fi
+
+    echo "$java_major"
+}
+
+java_major_version=`get_java_major_version "$JAVACMD"`
+
+if [ -n "$java_major_version" ] && [ "$java_major_version" -gt 21 ] ; then
+    JAVA_FALLBACK_CANDIDATES="$JAVA21_HOME $JDK21_HOME $HOME/.local/share/mise/installs/java/21.0.2 $HOME/.local/share/mise/installs/java/21 /usr/lib/jvm/java-21-openjdk /usr/lib/jvm/jdk-21"
+
+    for java_home_candidate in $JAVA_FALLBACK_CANDIDATES ; do
+        if [ -n "$java_home_candidate" ] && [ -x "$java_home_candidate/bin/java" ] ; then
+            warn "Detected Java $java_major_version which is not yet supported by this Gradle/AGP setup. Falling back to Java from $java_home_candidate"
+            JAVA_HOME="$java_home_candidate"
+            JAVACMD="$JAVA_HOME/bin/java"
+            break
+        fi
+    done
+fi
+
 # Increase the maximum file descriptors if we can.
 if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
     MAX_FD_LIMIT=`ulimit -H -n`
