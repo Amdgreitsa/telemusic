@@ -10366,7 +10366,6 @@
     <string name="GiftCraftTitle">Craft Gift</string>
     <string name="GiftCraftViewAllVariants">View all craftable models  ></string>
     <string name="GiftCraftButton">Craft Gift</string>
-    <string name="GiftCraftButtonFailed">Craft New Gift</string>
     <string name="GiftCraftButtonNext">Craft New Gift</string>
     <string name="GiftCraftButtonEmpty">Tap + to add your first gift</string>
     <string name="GiftCraftSuccessChance">**%s** Success Chance</string>
