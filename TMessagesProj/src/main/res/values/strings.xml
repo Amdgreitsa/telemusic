@@ -10366,7 +10366,37 @@
     <string name="GiftCraftTitle">Craft Gift</string>
     <string name="GiftCraftViewAllVariants">View all craftable models  ></string>
     <string name="GiftCraftButton">Craft Gift</string>
-    <string name="GiftCraftButtonFailed">Craft New Gift</string>
+
+    <string name="DownloadingTranslationModelsTitle">Downloading translation models</string>
+    <string name="DownloadingTranslationModelsTextAnd">To continue, download language models for %1$s and %2$s.</string>
+    <string name="LastSeenNow">last seen just now</string>
+
+    <string name="BotAuthBotSubtitlePhone">This bot will receive your phone number.</string>
+    <string name="BotAuthSiteSubtitlePhone">This website will receive your phone number.</string>
+    <string name="BotAuthSharePhone">Share phone number</string>
+    <string name="BotAuthSharePhoneInfo">Your phone number will only be shared after confirmation.</string>
+
+    <string name="New">New</string>
+    <string name="WalletScanCode">Scan QR code</string>
+    <string name="WalletScanCodeNotFound">No QR code found</string>
+    <string name="paste">Paste</string>
+    <string name="copy">Copy</string>
+    <string name="selectAll">Select all</string>
+    <string name="CacheStreamFile">Cache streaming files</string>
+    <string name="DeleteTranslationModelsTitle">Delete translation models?</string>
+    <string name="WebPoweredBy">Powered by %s</string>
+    <string name="AddContactToast">Added to contacts</string>
+
+    <string name="StoryPrivacyButtonEveryone">Everyone</string>
+    <string name="StoryPrivacyButtonAllContacts">All contacts</string>
+    <string name="StoryPrivacyButtonCloseFriends">Close friends</string>
+    <string name="StoryPrivacyButtonMessage">Message settings</string>
+
+    <string name="PeerRequirementBotRight">Requires bot right: %1$s</string>
+    <string name="PeerRequirementBotRights">Requires bot rights: %1$s</string>
+    <string name="StickersStickerAlreadyThere">This sticker is already in your set.</string>
+
+    <string name="GiftCraftInfoFeature3Text">Crafting outcome can depend on selected gifts.</string>
     <string name="GiftCraftButtonNext">Craft New Gift</string>
     <string name="GiftCraftButtonEmpty">Tap + to add your first gift</string>
     <string name="GiftCraftSuccessChance">**%s** Success Chance</string>

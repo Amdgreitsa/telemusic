@@ -98,6 +98,9 @@ android {
         coreLibraryDesugaringEnabled true
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
 
     defaultConfig {
         minSdkVersion 21
