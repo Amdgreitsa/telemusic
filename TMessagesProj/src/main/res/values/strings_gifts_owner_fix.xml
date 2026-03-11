@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GiftCraftButtonFailed">Craft New Gift</string>
+    <string name="GiftCraftInfoButton">Start Crafting</string>
+    <string name="GiftCraftLaterTitle">Try Later</string>
+    <string name="GiftCraftLaterText">You will be able to craft this gift %s.</string>
+    <string name="GiftCrafted">crafted</string>
+    <string name="GiftCraft">Craft</string>
+    <string name="GiftCraftUnavailableTitle">Crafting Unavailable</string>
+    <string name="GiftCraftUnavailableText">These gifts currently can\'t be crafted.</string>
+    <string name="GiftCraftUnavailableTextTime">This gift will become available for crafting on **%s**.</string>
+    <string name="GiftOnSale">On sale for %s</string>
+    <string name="LeaveGroupTitle">Leave Group?</string>
+    <string name="LeaveChannelTitle">Leave Channel?</string>
+    <string name="LeaveGroupNewOwnerText">If you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.</string>
+    <string name="LeaveChannelNewOwnerText">If you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.</string>
+    <string name="AppointNewOwner">Appoint Another Owner</string>
+    <string name="LeaveGroupAndAppoint">Appoint %s and Leave Group</string>
+    <string name="LeaveChannelAndAppoint">Appoint %s and Leave Channel</string>
+    <string name="GroupAdmins">Group admins</string>
+    <string name="GroupMembers2">Group members</string>
+    <string name="ChannelAdmins">Channel admins</string>
+    <string name="ChannelSubscribers2">Channel subscribers</string>
+</resources>
