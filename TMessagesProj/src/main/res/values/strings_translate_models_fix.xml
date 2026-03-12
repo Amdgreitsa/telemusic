@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DownloadingTranslationModelsTitle">Downloading translation models</string>
+    <string name="DownloadingTranslationModelsTextAnd">To continue, download language models for %1$s and %2$s.</string>
+    <string name="DeleteTranslationModelsTitle">Delete translation models?</string>
+</resources>

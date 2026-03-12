@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="AppName">Telegram</string>
     <string name="AppNameBeta">Telegram Beta</string>
@@ -595,11 +594,9 @@
     <string name="ActionUniqueGiftResaleOutbound_other">You bought this gift for %d Stars</string>
     <string name="ActionUniqueGiftResaleInbound_one">**un1** bought you a gift for %d Star!</string>
     <string name="ActionUniqueGiftResaleInbound_other">**un1** bought you a gift for %d Stars!</string>
-
     <string name="ActionUniqueGiftResaleSoldOutboundTON">You sold this gift for %s TON</string>
     <string name="ActionUniqueGiftResaleSoldOutbound_one">You sold this gift for %d Star</string>
     <string name="ActionUniqueGiftResaleSoldOutbound_other">You sold this gift for %d Stars</string>
-
     <string name="ActionStarGiftInbound">%s sent you a gift</string>
     <string name="ActionStarGift">Gift</string>
     <string name="ActionGiftPremiumTitle2_one">%d Month Premium</string>
@@ -1825,10 +1822,8 @@
     <string name="AddContactByPhone">Add %1$s</string>
     <string name="PhoneNumberSearch">Phone number</string>
     <string name="NoContactsYet2Invite">Invite Friends ></string>
-
     <string name="NoContactsYet3">Add Contacts</string>
     <string name="NoContactsYet3Sub">You have no contacts on Telegram yet. How about adding them?</string>
-
     <string name="NewContactAlertTitle">New contact</string>
     <string name="NewContactAlertMessage">Phone number **%1$s** is not in your contacts list. Do you want to add it?</string>
     <string name="NewContactAlertButton">Add contact</string>
@@ -4529,25 +4524,18 @@
     <!--plural-->
     <string name="RevokeLinks_one">Revoke link</string>
     <string name="RevokeLinks_other">Revoke %d links</string>
-
     <string name="LeaveCommunities_one">Leave community</string>
     <string name="LeaveCommunities_other">Leave %d communities</string>
-
     <string name="RemoveDocumentsMessage_one">Do you want remove this document from Downloads?</string>
     <string name="RemoveDocumentsMessage_other">Do you want remove these **%d documents** from Downloads?</string>
-
     <string name="RemoveDocumentsTitle_one">Remove %d document</string>
     <string name="RemoveDocumentsTitle_other">Remove %d documents</string>
-
     <string name="ForceSetPasswordAlertMessage_one">Proceed without a password? If you do not set a password, you will only be able to log into your account via SMS once every %1$s day.</string>
     <string name="ForceSetPasswordAlertMessage_other">Proceed without a password? If you do not set a password, you will only be able to log into your account via SMS once every %1$s days.</string>
-
     <string name="MessagesDeletedUndo_one">Messages for %1$s day deleted</string>
     <string name="MessagesDeletedUndo_other">Messages for %1$s days deleted</string>
-
     <string name="DeleteDays_one">Delete %1$s day</string>
     <string name="DeleteDays_other">Delete %1$s days</string>
-
     <string name="MembersAreSpeakingToast_one">un1 is speaking</string>
     <string name="MembersAreSpeakingToast_other">un1 are speaking</string>
     <string name="DeleteBackground_one">Delete background</string>
@@ -4825,10 +4813,8 @@
     <string name="AllNPhotos_other">All %1$d photos</string>
     <string name="AllNMedia_one">All %1$d media</string>
     <string name="AllNMedia_other">All %1$d media</string>
-
     <string name="MessageSeen_one">Seen</string>
     <string name="MessageSeen_other">%1$d Seen</string>
-
     <string name="MessagePlayed_one">Played</string>
     <string name="MessagePlayed_other">%1$d Played</string>
     <!--accessibility descriptions-->
@@ -5041,7 +5027,6 @@
     <string name="SwipeToGoNextUnreadTopic">Pull up to go to the next unread topic</string>
     <string name="ReleaseToGoNextUnreadTopic">Release to go to the next unread topic</string>
     <string name="SwipeToGoNextTopicEnd">No more unread topics in %1$s</string>
-
     <string name="SwipeToGoNextChannelEnd">You have no unread channels</string>
     <string name="FavoriteStickersShort">Favorites</string>
     <string name="FeaturedStickersShort">Trending</string>
@@ -5202,7 +5187,6 @@
     <string name="ActionForwardsEnabledChannel">un1 enabled forwarding from this channel</string>
     <string name="ActionForwardsRestrictedGroup">un1 restricted forwarding from this group</string>
     <string name="ActionForwardsRestrictedChannel">un1 restricted forwarding from this channel</string>
-
     <string name="TypePrivateRestrictedForwards">Private restricted</string>
     <string name="TypePrivateGroupRestrictedForwards">Private restricted</string>
     <string name="ClearHistoryForThisDay">Clear History for this day</string>
@@ -5248,7 +5232,6 @@
     <string name="ActionReactionsChangedList">un1 changed chat reactions:\n %1$s</string>
     <string name="NobodyViewed">Nobody viewed</string>
     <string name="QrCode">QR Code</string>
-
     <string name="PushReactHidden">New reaction to your message</string>
     <string name="PushReactText">%2$s to your "%3$s"</string>
     <string name="PushReactNoText">%2$s to your message</string>
@@ -5288,7 +5271,6 @@
     <string name="PushReactStoryHidden">New reaction to your story</string>
     <string name="PushReactStoryHiddenSender">Story Reaction</string>
     <string name="BlurInChat">Blur in chat</string>
-
     <string name="AllowBackgroundActivity">Allow background activity</string>
     <string name="AllowBackgroundActivityInfo">This will improve reliability for incoming notifications and Telegram calls.</string>
     <string name="AllowBackgroundActivityInfoOneUIBelowS">This will improve reliability for incoming notifications and Telegram calls. Tap Settings -> Battery and turn **Allow background activity** on.</string>
@@ -5296,7 +5278,6 @@
     <string name="SetNewPassword">Set a new password</string>
     <string name="ReadAllReactions">Read all reactions</string>
     <string name="ReadAllMentions">Read all mentions</string>
-
     <string name="SuggestClearDatabaseTitle">Clear Database</string>
     <string name="SuggestClearDatabaseMessage">Your local database size %s. It\'s may affect to speed of application work.</string>
     <string name="DownloadsTabs">Downloads</string>
@@ -5308,7 +5289,6 @@
     <string name="DownloadedFiles">Downloaded files</string>
     <string name="ManageDeviceStorage">Manage Device Storage</string>
     <string name="RemoveDocumentsAlertMessage">They will be deleted from your disk, but will remain accessible in the cloud.</string>
-
     <string name="DownloadedFilesMessage">Telegram lets you store all documents you send and receive in the cloud and save storage space on your device.</string>
     <string name="ClearDownloadsList">Clear Download List</string>
     <string name="SearchEmptyViewDownloads">No recent downloads</string>
@@ -5677,7 +5657,6 @@
     <string name="MicrophoneForVoiceMessagesScoHint">Using a headset microphone may reduce background noise but will slightly decrease audio quality.</string>
     <string name="ReactionInDialog">Reacted with %s to your message</string>
     <string name="DialogNotAvailable">Not available</string>
-
     <string name="SetUsernameHeader">Set username</string>
     <string name="UsernamesChannelHeader">Links order</string>
     <string name="UsernamesProfileHeader">Usernames order</string>
@@ -6680,11 +6659,10 @@
     <string name="SortByReactions">Reactions First</string>
     <string name="SortByReposts">Reposts First</string>
     <string name="SortByTime">Newest First</string>
-    <string name="StoryViewsSortDescription">Choose the order for the 
+    <string name="StoryViewsSortDescription">Choose the order for the
 list of viewers.</string>
-    <string name="StoryReactionsSortDescription">Choose the order for the 
+    <string name="StoryReactionsSortDescription">Choose the order for the
 list of reactions.</string>
-    <string name="StoryReactionsSortDescription">Choose the order for the  list of reactions.</string>
     <string name="NoContactsViewed">None of your contacts viewed this story.</string>
     <string name="Viewers">Viewers</string>
     <string name="StealthModeConfirmTitle">You are in Stealth Mode now</string>
@@ -7771,7 +7749,6 @@ list of reactions.</string>
     <string name="FragmentPhoneCopy">Copy Phone Number</string>
     <string name="FragmentChannelUsername">The **%1$s** username was acquired on **Fragment** on %2$s for **%3$s** %4$s.</string>
     <string name="FragmentAddFunds">You can add funds to your balance via the third-party platform Fragment.</string>
-
     <string name="LearnMoreArrow">Learn More ></string>
     <string name="Monetization">Monetization</string>
     <string name="MonetizationInfoTitle">Earn From Your Channel</string>
@@ -8099,11 +8076,8 @@ list of reactions.</string>
     <string name="StarsCount_other">%d Stars</string>
     <string name="TonCount_one">%d TON</string>
     <string name="TonCount_other">%d TON</string>
-
     <string name="StarsCountX">%s Stars</string>
     <string name="TonCountX">%s TON</string>
-
-
     <string name="StarsTOS">By proceeding and purchasing Stars, you agree with the **Terms and Conditions**.</string>
     <string name="StarsTOSLink">https://telegram.org/tos</string>
     <string name="StarsBalance">Balance</string>
@@ -8675,7 +8649,6 @@ list of reactions.</string>
     <string name="Gift2AuctionLearnMore3">Learn more about wearing gifts ></string>
     <string name="Gift2WearingHint">You can upgrade your gift for free, sell it on\nthe market, or set it as your profile cover.</string>
     <string name="Gift2AuctionVariants">View %1$s %2$s Variants ></string>
-
     <string name="Gift2AuctionBidInfoMinimumBid">minimum bid</string>
     <string name="Gift2AuctionBidInfoUntilNextRound">until next round</string>
     <string name="Gift2AuctionBidInfoUntilStart">until start</string>
@@ -9494,7 +9467,6 @@ list of reactions.</string>
     <string name="VoipAudioSwitchedToHeadset">Audio switched to Headset.</string>
     <string name="VoipAudioSwitchedToPhone">Audio switched to Phone.</string>
     <string name="VoipAudioSwitchedToSpeaker">Audio switched to Speaker.</string>
-
     <string name="ResellGiftTitle">Price in Stars</string>
     <string name="ResellGiftTitleTON">Price in TON</string>
     <string name="ResellGiftPriceTitle">Enter price in Stars</string>
@@ -9510,7 +9482,6 @@ list of reactions.</string>
     <string name="ResellGiftPriceTooSmall">You must request minimum %s</string>
     <string name="ResellGiftPriceOnlyTON">Only Accept TON</string>
     <string name="ResellGiftPriceHintOnlyTON">If the buyer pays you in TON, there\'s no risk of refunds, unlike Stars payments.</string>
-
     <string name="ResellGiftFilterSortDateShort">Date</string>
     <string name="ResellGiftFilterSortPriceShort">Price</string>
     <string name="ResellGiftFilterSortNumberShort">Number</string>
@@ -9573,15 +9544,12 @@ list of reactions.</string>
     <string name="SuggestedMessageDecline">Decline</string>
     <string name="SuggestedMessageDeclineInfo">Do you want to decline publishing this post from **%1$s**?</string>
     <string name="SuggestedMessageAcceptInfo">Do you want to publish this post from **%1$s**?</string>
-
     <string name="SuggestedMessageAcceptInfoAdmin2">You will receive **%1$s** (%3$s) for publishing this post **%2$s**.</string>
     <string name="SuggestedMessageAcceptInfoUser2">You will pay **%1$s** for publishing this post **%2$s**.</string>
     <string name="SuggestedMessageAcceptInfoAnytimeAdmin2">You will receive **%1$s** (%2$s) for publishing this post.</string>
     <string name="SuggestedMessageAcceptInfoAnytimeUser2">You will pay **%1$s** for publishing this post.</string>
     <string name="SuggestedMessageAcceptInfo3">It must remain visible for at least **%d** hours after publication.</string>
-
     <string name="SuggestedMessageAcceptStarsDisclaimer">Transactions in Stars may be reversed by the payment provider within 21 days. Only accept Stars from people you trust.</string>
-
     <string name="SuggestedMessageDeclineReasonHint">Add a reason (optional)</string>
     <string name="SuggestPostForStars">Message for ⭐️%s</string>
     <string name="SuggestPostForFree">Message</string>
@@ -9596,7 +9564,6 @@ list of reactions.</string>
     <string name="PriceForEachSuggestion">Price for each message</string>
     <string name="Suggest2ChannelSendHint">Send a message to the channel\'s admin</string>
     <string name="ChannelLinkDirectMessages">Link to direct messages</string>
-
     <string name="PostSuggestionsOfferTitle">Suggest a Message</string>
     <string name="PostSuggestionsOfferChangeTitle">Suggest Changes</string>
     <string name="PostSuggestionsOfferChangeUpdateTerms">Update Terms</string>
@@ -9610,17 +9577,14 @@ list of reactions.</string>
     <string name="PostSuggestionsOfferTitlePriceStars">Enter Price in Stars</string>
     <string name="PostSuggestionsOfferTitlePriceTON">Enter Price in TON</string>
     <string name="PostSuggestionsOfferTitleTime">Publishing Time</string>
-
     <string name="PostSuggestionsInlineAccept">Accept</string>
     <string name="PostSuggestionsInlineDecline">Decline</string>
     <string name="PostSuggestionsInlineEdit">Suggest Changes</string>
-
     <string name="PostSuggestionsAnytime">Anytime</string>
     <string name="PostSuggestionsAddTime">Edit Time</string>
     <string name="PostSuggestionsAddTimeHint">Select the date and time you want the message to be published.</string>
     <string name="PostSuggestionsAddTimeHint2">The post will remain available for at least %d hours from this date.</string>
     <string name="PostSuggestionsPriceInfo2">You will receive %1$s of the selected fee (~%2$s$) for each incoming message.</string>
-
     <string name="SuggestAPostBelow">Suggest a Post Below</string>
     <string name="SuggestAPostBelowHint">Tap here to suggest a post for %s</string>
     <string name="SuggestAPostBelowSubtitle">Tap to offer a price for publishing</string>
@@ -9628,37 +9592,30 @@ list of reactions.</string>
     <string name="SuggestAPostBelowSubtitleStarsAndTime">⭐️ %s %s</string>
     <string name="SuggestAPostTooMuch">You can offer maximum %s</string>
     <string name="SuggestAPostTooSmall">You must offer minimum %s</string>
-
     <string name="SuggestionAgreementReached">🤝 **Agreement Reached!**</string>
-
     <string name="SuggestionAgreementReachedUser1">📆 Your post will be automatically published on **%s** **%s**</string>
     <string name="SuggestionAgreementReachedUser1PresentPerfect">📆 Your post has been published on **%s**</string>
     <string name="SuggestionAgreementReachedUser1PastSimple">📆 Your post was automatically published on **%s** **%s**</string>
     <string name="SuggestionAgreementReachedAdmin1">📆 This post will be automatically published **%s** **%s**</string>
     <string name="SuggestionAgreementReachedAdmin1PresentPerfect">📆 This post has been published on **%s**</string>
     <string name="SuggestionAgreementReachedAdmin1PastSimple">📆 This post was automatically published on **%s** **%s**</string>
-
     <string name="SuggestionAgreementReachedUser2">💰 You have been charged ⭐️ **%s**.</string>
     <string name="SuggestionAgreementReachedAdmin2">💰 **%s** has been charged ⭐️ **%s**.</string>
     <string name="SuggestionAgreementReachedUser3Stars">⏳ **%s** will receive your **Stars** once the post has been live for **%d** hours.</string>
     <string name="SuggestionAgreementReachedAdmin3Stars">⏳ **%s** will receive the **Stars** once the post has been live for **%d** hours.</string>
     <string name="SuggestionAgreementReachedUser4Stars">🔁 If **%s** removes the post before it has been live for **%d** hours, your **Stars** will be refunded.</string>
     <string name="SuggestionAgreementReachedAdmin4Stars">🔁 If **%s** removes the post before it has been live for **%d** hours, **Stars** will be refunded to user.</string>
-
     <string name="SuggestionAgreementReachedUser3TON">⏳ **%s** will receive your **TON** once the post has been live for **%d** hours.</string>
     <string name="SuggestionAgreementReachedAdmin3TON">⏳ **%s** will receive the **TON** once the post has been live for **%d** hours.</string>
     <string name="SuggestionAgreementReachedUser4TON">🔁 If **%s** removes the post before it has been live for **%d** hours, your **TON** will be refunded.</string>
     <string name="SuggestionAgreementReachedAdmin4TON">🔁 If **%s** removes the post before it has been live for **%d** hours, **TON** will be refunded to user.</string>
-
     <string name="SuggestionAgreementDeclinedYou">❌ **%s** rejected your message.</string>
     <string name="SuggestionAgreementDeclinedThis">❌ **%s** rejected this message.</string>
     <string name="SuggestionAgreementDeclinedYouComment">❌ **%s** rejected your message with the comment.</string>
     <string name="SuggestionAgreementDeclinedThisComment">❌ **%s** rejected this message with the comment.</string>
     <string name="SuggestionAgreementNotEnoughStars">⚠️ **Transaction failed** because **%s** didn’t have enough Stars.</string>
-
     <string name="SuggestionOfferInfoTitleYou">**You** suggest to post this message.</string>
     <string name="SuggestionOfferInfoTitle">**%s** suggest to post this message.</string>
-
     <string name="SuggestionOfferInfoTitleEditedFromYou">**You** suggest a new %1$s for this message.</string>
     <string name="SuggestionOfferInfoTitleEditedFromX">**%1$s** suggest a new %2$s for this message.</string>
     <string name="SuggestionOfferInfoTitleEditedPrice">price</string>
@@ -9666,29 +9623,22 @@ list of reactions.</string>
     <string name="SuggestionOfferInfoTitleEditedText">text</string>
     <string name="SuggestionOfferInfoTitleEditedMedia">media</string>
     <string name="SuggestionOfferInfoTitleEditedAnd">and</string>
-
     <string name="SuggestionOfferInfoPrice">Price</string>
     <string name="SuggestionOfferInfoTime">Time</string>
-
     <string name="SuggestionStarsWillBeLost">Stars will be lost</string>
     <string name="SuggestionTONWillBeLost">TON will be lost</string>
     <string name="SuggestionStarsWillBeLostInfo">You won’t receive Stars for this post if you delete it now. The post must remain visible for at least** %d hours** after it was published.</string>
     <string name="SuggestionTONWillBeLostInfo">You won’t receive TON for this post if you delete it now. The post must remain visible for at least** %d hours** after it was published.</string>
     <string name="SuggestionStarsWillBeLostDelete">Delete Anyway</string>
-
     <string name="SuggestedOfferPaidUntil">Paid until %1$s</string>
     <string name="SuggestedOfferStars">Offer Stars</string>
     <string name="SuggestedOfferTON">Offer TON</string>
-
     <string name="SuggestedOfferRefundByAdminAmountF">⭐️ %3$s was returned to %1$s because %2$s deleted the message</string>
     <string name="SuggestedOfferRefundByUserAmountF">%2$s will not receive ⭐️ %3$s because %1$s requested a refund</string>
-
     <string name="SuggestedOfferRefundByAdminAmountUnknown">The funds was returned to %1$s because %2$s deleted the message</string>
     <string name="SuggestedOfferRefundByUserAmountUnknown">%2$s will not receive funds because %1$s requested a refund</string>
-
     <string name="SuggestedOfferCompleteAmountF">%1$s has received ⭐️ %2$s for publishing post</string>
     <string name="SuggestedOfferCompleteAmountUnknown">%1$s has received funds for publishing post</string>
-
     <string name="TopicsTitle">Topics</string>
     <string name="TopicsEnable">Enable Topics</string>
     <string name="TopicsInfo">The group chat will be divided into topics created by admins and users.</string>
@@ -9828,7 +9778,6 @@ list of reactions.</string>
     <string name="GiftCollectionSharedToSavedMessages">Gift Collection forwarded to **Saved Messages**</string>
     <string name="GiftCollectionSharedToManyChats_one">Gift Collection forwarded to **a chat**.</string>
     <string name="GiftCollectionSharedToManyChats_other">Gift Collection forwarded to **%1$d chats**.</string>
-
     <string name="StarRatingTitle">Rating</string>
     <string name="StarRatingAdded">ADDED</string>
     <string name="StarRatingDeduces">DEDUCTED</string>
@@ -10088,7 +10037,6 @@ list of reactions.</string>
     <string name="LiveStoryMessageEditStars">Edit Stars</string>
     <string name="LiveStoryMessageRemoveStars">Remove Stars</string>
     <string name="LiveStoryCommentsDisabled">Comments Disabled</string>
-
     <string name="Gift2ActiveAuctionsActiveAuctionTitle">Active Auction</string>
     <string name="Gift2ActiveAuctionsActiveAuctionsTitle">%d Active Auctions</string>
     <string name="Gift2ActiveAuctionsUpcomingAuctionTitle">Upcoming Auction</string>
@@ -10107,7 +10055,6 @@ list of reactions.</string>
     <string name="Gift2ActiveAuctionsActiveStatusWinningAll">You are winning all of them.</string>
     <string name="Gift2ActiveAuctionsActiveStatusOutbid">You\'ve been outbid.</string>
     <string name="Gift2ActiveAuctionsActiveStatusEarly">You\'ve placed an early bid.</string>
-
     <string name="Gift2ActiveAuctionsActiveRound">Round %s of %s</string>
     <string name="Gift2ActiveAuctionsActiveRaiseBid">Raise Bid</string>
     <string name="Gift2ActiveAuctionsActiveBidActive">Your bid **%s** is ranked **#%d**</string>
@@ -10150,13 +10097,11 @@ list of reactions.</string>
     <string name="PasskeyPopupText">Log in with your face, fingerprint or screen lock</string>
     <string name="PasskeyNoOptionsTitle">No Passkey App</string>
     <string name="PasskeyNoOptionsText">Install app that supports saving passkeys on your phone or physical ledgers.</string>
-
     <string name="StoryMusicTitle">Add Audiotrack</string>
     <string name="StoryMusicSelectFromFiles">Select from Files</string>
     <string name="StoryMusicProfileMusic">Saved Music</string>
     <string name="StoryMusicSearchMusic">Shared Audio</string>
     <string name="StoryMusicLocalMusic">Local Music</string>
-
     <string name="GiftOfferToBuyMenu">Offer to buy</string>
     <string name="GiftOfferToBuyTitle">Offer to Buy</string>
     <string name="GiftOfferStarsToOffer">Stars to offer</string>
@@ -10212,12 +10157,10 @@ list of reactions.</string>
     <string name="GiftOfferOfferedTextTONRejectedOut">You rejected **%1$s\'s** offer to buy your **%3$s** for **%2$s TON**.</string>
     <string name="GiftOfferOfferedTextStarsRejected">**%1$s** rejected your offer. **%2$s Stars** for **%3$s**.</string>
     <string name="GiftOfferOfferedTextTONRejected">**%1$s** rejected your offer. **%2$s TON** for **%3$s**.</string>
-
     <string name="GiftOfferOfferedTextStarsExpiredOut">**%1$s\'s** offer has expired. **%2$s Stars** for **%3$s**.</string>
     <string name="GiftOfferOfferedTextTONExpiredOut">**%1$s\'s** offer has expired. **%2$s TON** for **%3$s**.</string>
     <string name="GiftOfferOfferedTextStarsExpired">Your offer to **%1$s** has expired. **%2$s Stars** for **%3$s**.</string>
     <string name="GiftOfferOfferedTextTONExpired">Your offer to **%1$s** has expired. **%2$s TON** for **%3$s**.</string>
-
     <string name="FeaturePreviewGifts">Unique Collectibles</string>
     <string name="FeaturePreviewGiftsDescription">Telegram Gifts are collectible items you can trade or showcase on your profile.</string>
     <string name="GiftsFeature1Title">Unique</string>
@@ -10274,7 +10217,6 @@ list of reactions.</string>
     <string name="GiftAuctionWearInfo2Text">Your profile page will get the color and the symbol of this item.</string>
     <string name="GiftAuctionWearInfo3Header">Proof of Ownership</string>
     <string name="GiftAuctionWearInfo3Text">Tapping the icon of this item next to your name will show its info and owner.</string>
-
     <string name="MainTabsContacts">Contacts</string>
     <string name="MainTabsCalls">Calls</string>
     <string name="MainTabsChats">Chats</string>
@@ -10282,7 +10224,6 @@ list of reactions.</string>
     <string name="MainTabsSettings">Settings</string>
     <string name="SwitchThemeToDay">Day Mode</string>
     <string name="SwitchThemeToNight">Night Mode</string>
-
     <string name="SettingsAccount">Account</string>
     <string name="SettingsAccounts">Accounts</string>
     <string name="SettingsAccountInfo">Number, Username, Bio</string>
@@ -10305,7 +10246,6 @@ list of reactions.</string>
     <string name="AddAccountInfo1_other">You can add %d additional accounts.</string>
     <string name="AddAccountInfo2_one">Subscribe to **Telegram Premium** to use up to %d account.</string>
     <string name="AddAccountInfo2_other">Subscribe to **Telegram Premium** to use up to %d accounts.</string>
-
     <string name="CocoonPoweredBy">Translations are powered by\n**🥚 Cocoon**.</string>
     <string name="CocoonPoweredByLink">**How does it work?**</string>
     <string name="CocoonSubtitle">Cocoon (**Co**nfidential **Co**mpute **O**pen **N**etwork)\nhandles AI tasks safely and efficiently.</string>
@@ -10323,7 +10263,6 @@ list of reactions.</string>
     <string name="SummarySubtitle">Tap to see original text</string>
     <string name="SummaryLimit">Summarize large messages with AI — unlimited in Telegram Premium.</string>
     <string name="SummaryLimitUpgrade">Upgrade</string>
-
     <string name="StakeDiceTitle">Emoji Stake</string>
     <string name="StakeDiceTitleBeta">Beta</string>
     <string name="StakeDiceText">A limited play-test of the upcoming emoji mini-game platform for a small group of users.</string>
@@ -10337,58 +10276,22 @@ list of reactions.</string>
     <string name="StakeDiceActionYouLost">You lost 💎 %s</string>
     <string name="StakeDiceActionWon">un1 won 💎 %s</string>
     <string name="StakeDiceActionLost">un1 lost 💎 %s</string>
-
     <string name="BotAuthTitle">Log in to **%s**</string>
     <string name="BotAuthSiteSubtitle">This site will receive your **name**,\n**username** and **profile photo**.</string>
     <string name="BotAuthBotSubtitle">This bot will receive your **name**,\n**username** and **profile photo**.</string>
 
-
-
-    <string name="DownloadingTranslationModelsTitle">Downloading translation models</string>
-    <string name="DownloadingTranslationModelsTextAnd">To continue, download language models for %1$s and %2$s.</string>
-    <string name="LastSeenNow">last seen just now</string>
-
-    <string name="BotAuthBotSubtitlePhone">This bot will receive your phone number.</string>
-    <string name="BotAuthSiteSubtitlePhone">This website will receive your phone number.</string>
-    <string name="BotAuthSharePhone">Share phone number</string>
-    <string name="BotAuthSharePhoneInfo">Your phone number will only be shared after confirmation.</string>
-
-    <string name="New">New</string>
-    <string name="WalletScanCode">Scan QR code</string>
-    <string name="WalletScanCodeNotFound">No QR code found</string>
-    <string name="paste">Paste</string>
-    <string name="copy">Copy</string>
-    <string name="selectAll">Select all</string>
-    <string name="CacheStreamFile">Cache streaming files</string>
-    <string name="DeleteTranslationModelsTitle">Delete translation models?</string>
-    <string name="WebPoweredBy">Powered by %s</string>
-    <string name="AddContactToast">Added to contacts</string>
-
-    <string name="StoryPrivacyButtonEveryone">Everyone</string>
-    <string name="StoryPrivacyButtonAllContacts">All contacts</string>
-    <string name="StoryPrivacyButtonCloseFriends">Close friends</string>
-    <string name="StoryPrivacyButtonMessage">Message settings</string>
-
-    <string name="PeerRequirementBotRight">Requires bot right: %1$s</string>
-    <string name="PeerRequirementBotRights">Requires bot rights: %1$s</string>
-    <string name="StickersStickerAlreadyThere">This sticker is already in your set.</string>
-
-    <string name="GiftCraftInfoFeature3Text">Crafting outcome can depend on selected gifts.</string>
     <string name="GiftRarityEpic">epic</string>
     <string name="GiftRarityLegendary">legendary</string>
     <string name="GiftCraftTitle">Craft Gift</string>
     <string name="GiftCraftViewAllVariants">View all craftable models  ></string>
     <string name="GiftCraftButton">Craft Gift</string>
-
     <string name="DownloadingTranslationModelsTitle">Downloading translation models</string>
     <string name="DownloadingTranslationModelsTextAnd">To continue, download language models for %1$s and %2$s.</string>
     <string name="LastSeenNow">last seen just now</string>
-
     <string name="BotAuthBotSubtitlePhone">This bot will receive your phone number.</string>
     <string name="BotAuthSiteSubtitlePhone">This website will receive your phone number.</string>
     <string name="BotAuthSharePhone">Share phone number</string>
     <string name="BotAuthSharePhoneInfo">Your phone number will only be shared after confirmation.</string>
-
     <string name="New">New</string>
     <string name="WalletScanCode">Scan QR code</string>
     <string name="WalletScanCodeNotFound">No QR code found</string>
@@ -10399,16 +10302,13 @@ list of reactions.</string>
     <string name="DeleteTranslationModelsTitle">Delete translation models?</string>
     <string name="WebPoweredBy">Powered by %s</string>
     <string name="AddContactToast">Added to contacts</string>
-
     <string name="StoryPrivacyButtonEveryone">Everyone</string>
     <string name="StoryPrivacyButtonAllContacts">All contacts</string>
     <string name="StoryPrivacyButtonCloseFriends">Close friends</string>
     <string name="StoryPrivacyButtonMessage">Message settings</string>
-
     <string name="PeerRequirementBotRight">Requires bot right: %1$s</string>
     <string name="PeerRequirementBotRights">Requires bot rights: %1$s</string>
     <string name="StickersStickerAlreadyThere">This sticker is already in your set.</string>
-
     <string name="GiftCraftInfoFeature3Text">Crafting outcome can depend on selected gifts.</string>
     <string name="GiftCraftButtonNext">Craft New Gift</string>
     <string name="GiftCraftButtonEmpty">Tap + to add your first gift</string>
@@ -10436,31 +10336,4 @@ list of reactions.</string>
     <string name="GiftCraftInfoFeature2Title">Maximize Chances</string>
     <string name="GiftCraftInfoFeature2Text">Combine more gifts to increase your odds of success.</string>
     <string name="GiftCraftInfoFeature3Title">Affect the Result</string>
-</resources>
-    <string name="GiftCraftInfoButton">Start Crafting</string>
-    <string name="GiftCraftLaterTitle">Try Later</string>
-    <string name="GiftCraftLaterText">You will be able to craft this gift %s.</string>
-    <string name="GiftCrafted">crafted</string>
-    <string name="GiftCraft">Craft</string>
-    <string name="GiftCraftUnavailableTitle">Crafting Unavailable</string>
-    <string name="GiftCraftUnavailableText">These gifts currently can\'t be crafted.</string>
-    <string name="GiftCraftUnavailableTextTime">This gift will become available for crafting on **%s**.</string>
-    <string name="GiftCraftSymbolChance_one">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
-    <string name="GiftCraftSymbolChance_other">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
-    <string name="GiftCraftBackdropChance_one">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
-    <string name="GiftCraftBackdropChance_other">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
-    <string name="GiftOnSale">On sale for %s</string>
-
-    <string name="LeaveGroupTitle">Leave Group?</string>
-    <string name="LeaveChannelTitle">Leave Channel?</string>
-    <string name="LeaveGroupNewOwnerText">If you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.</string>
-    <string name="LeaveChannelNewOwnerText">If you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.</string>
-    <string name="AppointNewOwner">Appoint Another Owner</string>
-    <string name="LeaveGroupAndAppoint">Appoint %s and Leave Group</string>
-    <string name="LeaveChannelAndAppoint">Appoint %s and Leave Channel</string>
-    <string name="GroupAdmins">Group admins</string>
-    <string name="GroupMembers2">Group members</string>
-    <string name="ChannelAdmins">Channel admins</string>
-    <string name="ChannelSubscribers2">Channel subscribers</string>
-    <string name="MembersSearch">Search people</string>
 </resources>
